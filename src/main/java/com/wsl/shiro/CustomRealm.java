@@ -35,6 +35,7 @@ public class CustomRealm extends AuthorizingRealm {
                 simpleAuthorizationInfo.addStringPermission(permissions.getPermissionsName());
             }
         }
+
         return simpleAuthorizationInfo;
     }
 
